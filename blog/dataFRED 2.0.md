@@ -1,4 +1,4 @@
-## A second header
+## {{header}}
 
 and some text
 
