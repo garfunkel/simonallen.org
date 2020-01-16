@@ -8,18 +8,18 @@
 	<body>
 		{{{ include header }}}
 		<div class="container">
-			<div class="collection">
-				{{#years}}
-				<ul class="collection with-header">
-					<li class="collection-header">
-						<h5>{{year}}</h5>
-					</li>
-					{{#articles}}
-					<li class="collection-item">{{title}}</li>
-					{{/articles}}
-				</ul>
-				{{/years}}
-			</div>
+			{{#years}}
+			<ul class="collection with-header">
+				<li class="collection-header">
+					<h5>{{year}}</h5>
+				</li>
+				{{#articles}}
+				<li class="collection-item">
+					<a href="#!" class="collection-item">{{title}}</a>
+				</li>
+				{{/articles}}
+			</ul>
+			{{/years}}
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	</body>
