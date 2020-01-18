@@ -1,3 +1,4 @@
-header > div {
+header > p {
 	color: grey;
+	font-size: 0.4em;
 }
