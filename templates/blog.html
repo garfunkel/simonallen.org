@@ -8,7 +8,17 @@
 	<body>
 		{{{ include header }}}
 		<div class="container">
-			{{{ blog content }}}
+			{{#article}}
+			<div class="section">
+				<header>
+					<h4>{{title}}</h4>
+					<span>{{date}}</span>
+					<span>{{author}}</span>
+				</header>
+				{{body}}
+				{{{divider}}}
+			</div>
+			{{/article}}
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	</body>
