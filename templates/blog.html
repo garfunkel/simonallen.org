@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/static/css/style.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,8 +12,7 @@
 			<div class="section">
 				<header>
 					<h4>{{title}}</h4>
-					<span>{{date}}</span>
-					<span>{{author}}</span>
+					<div class="right-align">posted on {{date}} by {{author}}</div>
 				</header>
 				{{body}}
 				{{{divider}}}
