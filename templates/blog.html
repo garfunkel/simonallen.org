@@ -7,8 +7,8 @@
 	</head>
 	<body>
 		{{{ include header }}}
-		{{#articles}}
 		<div class="container">
+			{{#articles}}
 			<div class="section">
 				<header>
 					<h3>{{title}}
@@ -20,8 +20,8 @@
 				{{body}}
 			</div>
 			{{{divider}}}
+			{{/articles}}
 		</div>
-		{{/articles}}
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	</body>
 </html>
