@@ -2,3 +2,7 @@ header p {
 	color: grey;
 	font-size: 0.4em;
 }
+
+.divider {
+	padding: 25px;
+}
