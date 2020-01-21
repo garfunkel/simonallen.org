@@ -1,8 +1,9 @@
 header p {
 	color: grey;
 	font-size: 0.4em;
+	font-style: italic;
 }
 
 .divider {
-	padding: 25px;
+	margin-top: 2em;
 }
