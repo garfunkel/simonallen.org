@@ -19,8 +19,18 @@
 			<div class="section flow-text">
 				{{body}}
 			</div>
-			{{{divider}}}
+			<div class="divider"></div>
 			{{/articles}}
+			<div class="section">
+				<a class="waves-effect waves-light btn left">
+					<i class="material-icons left">arrow_left</i>
+					Page {{prevPageNum}}
+				</a>
+				<a class="waves-effect waves-light btn right">
+					<i class="material-icons right">arrow_right</i>
+					Page {{nextPageNum}}
+				</a>
+			</div>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 	</body>
