@@ -23,13 +23,13 @@
 			{{/articles}}
 			<div class="section">
 				{{^firstPage}}
-				<a class="waves-effect waves-light btn left">
+				<a class="waves-effect waves-light btn left" href="/blog/page/{{previousPage}}.html">
 					<i class="material-icons left">arrow_left</i>
 					Previous Page
 				</a>
 				{{/firstPage}}
 				{{^lastPage}}
-				<a class="waves-effect waves-light btn right">
+				<a class="waves-effect waves-light btn right" href="/blog/page/{{nextPage}}.html">
 					<i class="material-icons right">arrow_right</i>
 					Next Page
 				</a>
