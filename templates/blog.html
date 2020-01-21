@@ -22,14 +22,18 @@
 			<div class="divider"></div>
 			{{/articles}}
 			<div class="section">
+				{{^firstPage}}
 				<a class="waves-effect waves-light btn left">
 					<i class="material-icons left">arrow_left</i>
 					Previous Page
 				</a>
+				{{/firstPage}}
+				{{^lastPage}}
 				<a class="waves-effect waves-light btn right">
 					<i class="material-icons right">arrow_right</i>
 					Next Page
 				</a>
+				{{/lastPage}}
 			</div>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
