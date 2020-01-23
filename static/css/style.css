@@ -4,8 +4,8 @@ header p {
 	font-style: italic;
 }
 
-nav.byline {
-	margin-left: 2em;
+nav .byline {
+	margin-right: 1em;
 }
 
 .divider {
