@@ -4,6 +4,10 @@ header p {
 	font-style: italic;
 }
 
+nav.byline {
+	margin-left: 2em;
+}
+
 .divider {
 	margin-top: 2em;
 }
