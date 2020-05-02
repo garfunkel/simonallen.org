@@ -9,30 +9,30 @@
 		{{{ include header }}}
 		<div class="container">
 			{{#articles}}
-			<div class="section">
-				<header>
-					<h3>{{title}}
-						<p class="right">posted on {{date}} by {{author}}</p>
-					</h3>
-				</header>
-			</div>
-			<div class="section flow-text">
-				{{body}}
-			</div>
-			<div class="divider"></div>
+				<div class="section">
+					<header>
+						<h3>{{title}}
+							<p class="right">posted on {{date}} by {{author}}</p>
+						</h3>
+					</header>
+				</div>
+				<div class="section flow-text">
+					{{body}}
+				</div>
+				<div class="divider"></div>
 			{{/articles}}
 			<div class="section">
 				{{^firstPage}}
-				<a class="waves-effect waves-light btn left" href="/blog/page/{{previousPage}}.html">
-					<i class="material-icons left">arrow_left</i>
-					Previous Page
-				</a>
+					<a class="waves-effect waves-light btn left" href="/blog/page/{{previousPage}}.html">
+						<i class="material-icons left">arrow_left</i>
+						Previous Page
+					</a>
 				{{/firstPage}}
 				{{^lastPage}}
-				<a class="waves-effect waves-light btn right" href="/blog/page/{{nextPage}}.html">
-					<i class="material-icons right">arrow_right</i>
-					Next Page
-				</a>
+					<a class="waves-effect waves-light btn right" href="/blog/page/{{nextPage}}.html">
+						<i class="material-icons right">arrow_right</i>
+						Next Page
+					</a>
 				{{/lastPage}}
 			</div>
 		</div>

@@ -9,24 +9,24 @@
 		{{{ include header }}}
 		<div class="container">
 			{{#years}}
-			<div class="collection with-header">
-				<div class="collection-header">
-					<h5>{{year}}</h5>
+				<div class="collection with-header">
+					<div class="collection-header">
+						<h5>{{year}}</h5>
+					</div>
+					{{#articles}}
+						<a href="{{link}}" class="collection-item row">
+							<div class="col s8">
+								{{title}}
+							</div>
+							<div class="col s2">
+								{{date}}
+							</div>
+							<div class="col s2">
+								{{author}}
+							</div>
+						</a>
+					{{/articles}}
 				</div>
-				{{#articles}}
-				<a href="#!" class="collection-item row">
-					<div class="col s8">
-						{{title}}
-					</div>
-					<div class="col s2">
-						{{date}}
-					</div>
-					<div class="col s2">
-						{{author}}
-					</div>
-				</a>
-				{{/articles}}
-			</div>
 			{{/years}}
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
